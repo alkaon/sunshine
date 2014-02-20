@@ -1,0 +1,31 @@
+@charset "utf-8";
+*{padding:0;margin:0}
+body{color:#000;background:#fff url(images/background.png);font:16px/24px "Trebuchet MS",Calibri,sans-serif;min-width:998px}
+section,nav,footer,header{min-width:998px}
+header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
+.clear{clear:both}
+.left{float:left}
+.right{float:right}
+.hide{display:none}
+.show{display:block}
+
+main{margin:0 auto;width:998px;position:relative;clear:both;padding:40px 0}
+
+header{}
+
+#imagine{}
+
+#about{}
+
+#why{}
+
+#low_price{}
+
+#discript{}
+
+#how_work{}
+
+#responses{}
+
+footer{}
+

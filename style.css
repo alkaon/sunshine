@@ -1,6 +1,6 @@
 @charset "utf-8";
 *{padding:0;margin:0}
-body{color:#000;background:#fff url(images/background.png);font:16px/24px "Trebuchet MS",Calibri,sans-serif;min-width:998px}
+body{color:#000;background:#fff url(images/background.png);font:16px "Trebuchet MS",Calibri,sans-serif;min-width:998px}
 section,nav,footer,header{min-width:998px}
 header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 .clear{clear:both}
@@ -19,7 +19,9 @@ header{}
 
 #why{}
 
-#low_price{}
+#low_price{background: url(images/fon4.jpg) top center no-repeat;}
+#low_price main{text-align: center;}
+#low_price h2{color: #fff; background: #f00; text-transform: uppercase; font-family:'Trebuchet MS'; font-size: 60px; display: inline-block; vertical-align: center; padding: 1px 34px;}
 
 #discript{}
 

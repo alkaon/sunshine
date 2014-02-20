@@ -32,7 +32,10 @@ header{}
 .img3{background:url(images/13.png);}
 .img4{background:url(images/14.png);}
 
-#why{}
+#why {background:url(images/why.png) center top no-repeat;margin-top:-12px;}
+#why h2{text-align:center; color:#ffffff; font:60px Trebuchet MS; font-weight:bold;margin-top:-35px;text-transform:uppercase;}
+#why ol{list-style:none}
+#why li{position:relative; display:inline-block;font:25px Trebuchet MS;font-style:italic; font-weight:bold;color:#ff0000;width:490px;text-align:center;margin-top:70px;vertical-align:top;}
 
 #low_price{background: #f9f9e2 url(images/fon4.jpg) top center no-repeat;}
 #low_price main{text-align: center;}

@@ -53,7 +53,9 @@ header{}
 
 #discript{}
 
-#how_work{}
+#how_work{background: url(images/fon6.jpg) top center no-repeat; height: 578px;}
+#how_work main{text-align: center; background: url(images/how.png) bottom center no-repeat; height: 450px;}
+#how_work h2{color: #fff600; text-transform: uppercase; font-family:'Trebuchet MS'; font-size: 60px; display: inline-block; vertical-align: center; margin-top: -35px;}
 
 #responses{}
 

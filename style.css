@@ -13,7 +13,15 @@ main{margin:0 auto;width:998px;position:relative;clear:both;padding:40px 0}
 
 header{}
 
-#imagine{}
+#imagine{background:url(images/fon2.jpg) center top no-repeat ;}
+
+#imagine h2{color:#ffffff;font:50px Trebuchet MS;font-weight:bold;text-align:center;margin-top:-30px;text-transform:uppercase;}
+#imagine img.soti{float:left;margin: 7px 7px 7px 0;}
+#imagine p{width:760px;margin-left:310px;margin-top:100px;color:#ffffff;font:22px Trebuchet MS;}
+.one{margin-bottom:135px;}
+.two{margin-bottom:140px;}
+#imagine img.poloski{margin-top:105px;margin-left:121px;}
+#imagine h3{color:#ffffff;font:22px Trebuchet MS;font-weight:bold;text-align:center;text-transform:uppercase;margin-top:15px;}
 
 #about{}
 

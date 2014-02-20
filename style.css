@@ -34,9 +34,19 @@ header{}
 
 #why{}
 
-#low_price{background: url(images/fon4.jpg) top center no-repeat;}
+#low_price{background: #f9f9e2 url(images/fon4.jpg) top center no-repeat;}
 #low_price main{text-align: center;}
-#low_price h2{color: #fff; background: #f00; text-transform: uppercase; font-family:'Trebuchet MS'; font-size: 60px; display: inline-block; vertical-align: center; padding: 1px 34px;}
+#low_price h2{color: #fff; background: #f00; text-transform: uppercase; font-family:'Trebuchet MS'; font-size: 60px; display: inline-block; vertical-align: center; padding: 1px 34px; margin-bottom: 80px;}
+#low_price article{display:inline-block; width: 460px; padding: 200px 0 5px 0; margin: 10px 15px;}
+#low_price article p{font-family:'Trebuchet MS'; font-size:30px; color:#f22935; margin-bottom: 5px;}
+#low_price article img{cursor: pointer;}
+#low_price .meh{background: url('images/1.jpg') top center no-repeat;}
+#low_price .kub{background: url('images/2.jpg') top center no-repeat;}
+#low_price .dom{background: url('images/3.jpg') top center no-repeat;}
+#low_price .mal{background: url('images/4.jpg') top center no-repeat;}
+#low_price .tai{background: url('images/5.jpg') top center no-repeat;}
+#low_price .oth{background: url('images/6.jpg') top center no-repeat;}
+
 
 #discript{}
 

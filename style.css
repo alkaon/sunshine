@@ -21,9 +21,16 @@ header{}
 .one{margin-bottom:135px;}
 .two{margin-bottom:140px;}
 #imagine img.poloski{margin-top:105px;margin-left:121px;}
-#imagine h3{color:#ffffff;font:22px Trebuchet MS;font-weight:bold;text-align:center;text-transform:uppercase;margin-top:15px;}
+#imagine h3{color:#ffffff;font:22px Trebuchet MS;font-weight:bold;text-align:center;text-transform:uppercase;margin-top:10px;margin-bottom:10px;}
 
-#about{}
+#about{background:url(images/fon3.jpg) center top no-repeat;margin-top:-40px;}
+#about h2{color:#fff600;text-transform:uppercase;font:65px Trebuchet MS;font-weight:bold;margin-top:-20px;text-align:center;}
+#about ol{list-style:none;}
+#about li{position:relative;display:inline-block;width:220px;height:220px;margin: 60px 20px 30px 0}
+.img1{background:url(images/11.png);}
+.img2{background:url(images/12.png);}
+.img3{background:url(images/13.png);}
+.img4{background:url(images/14.png);}
 
 #why{}
 

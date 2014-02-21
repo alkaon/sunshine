@@ -57,7 +57,9 @@ header{}
 #how_work main{text-align: center; background: url(images/how.png) bottom center no-repeat; height: 450px;}
 #how_work h2{color: #fff600; text-transform: uppercase; font-family:'Trebuchet MS'; font-size: 60px; display: inline-block; vertical-align: center; margin-top: -35px;}
 
-#responses{}
+#responses{height: 200px; background:#f2f2f2}
+#responses main{text-align: center; padding: 0;}
+#responses img{cursor: pointer; margin-top: 68px;}
 
 footer{background: url(images/fon7.jpg) top center no-repeat; height: 509px; text-align:center;}
 footer main{padding-bottom:0; height:469px;}

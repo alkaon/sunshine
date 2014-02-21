@@ -59,5 +59,8 @@ header{}
 
 #responses{}
 
-footer{}
+footer{background: url(images/fon7.jpg) top center no-repeat; height: 509px; text-align:center;}
+footer h2{font-family:'Trebuchet MS'; font-size:60px; color:#fff;text-transform: uppercase; }
+footer h3{font-family:'Trebuchet MS'; font-size:30px; color:#fff;text-transform: uppercase; }
+footer h4{font-family:'Trebuchet MS'; font-size:30px; color:#fff;}
 

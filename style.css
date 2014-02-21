@@ -60,7 +60,13 @@ header{}
 #responses{}
 
 footer{background: url(images/fon7.jpg) top center no-repeat; height: 509px; text-align:center;}
-footer h2{font-family:'Trebuchet MS'; font-size:60px; color:#fff;text-transform: uppercase; }
-footer h3{font-family:'Trebuchet MS'; font-size:30px; color:#fff;text-transform: uppercase; }
-footer h4{font-family:'Trebuchet MS'; font-size:30px; color:#fff;}
+footer main{padding-bottom:0; height:469px;}
+footer h2{font-family:'Trebuchet MS'; font-size:60px; color:#fff;text-transform: uppercase; padding-top: 80px;}
+footer h3{font-family:'Trebuchet MS'; font-size:30px; color:#fff;text-transform: uppercase; margin-top: -10px;}
+footer img{padding-top: 50px; cursor: pointer;}
+footer h4{font-family:'Trebuchet MS'; font-size:30px; color:#fff; padding-top: 50px;}
+footer div{ bottom: 0; position: relative;}
+footer p{font-family:'Trebuchet MS'; font-size:20px; color:#fff; padding-top: 53px;}
+footer p.left{padding-top: 63px;}
+footer p.right{font-size: 30px;}
 

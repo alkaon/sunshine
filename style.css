@@ -11,7 +11,25 @@ header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 
 main{margin:0 auto;width:998px;position:relative;clear:both;padding:40px 0}
 
-header{}
+header{height:1009px;background:url(images/fon.JPG) center top no-repeat;text-align:center}
+header h1,header h2, header h3{color:white;text-transform:uppercase}
+header h1 span,header h2 span, header h3 span{background:red;padding:0 20px}
+header h1{font-size:110px;margin-top:70px}
+header h2{font-size:43px;font-style:italic;margin-top:-10px}
+header h3{font-size:36px;margin-top:30px;font-weight:normal}
+header h3 span{padding:0 10px}
+header p{margin-top:20px;font-size:22px;font-weight:bold}
+header p span{background:#fff200;padding:8px 40px}
+header form, #discript form{width:296px;height:210px;background:url(images/forma.jpg) top left no-repeat;padding-top:125px}
+header form input, #discript form input{width:222px;margin-bottom:10px;height:22px;font-size:18px;background:transparent;padding:8px;border:none}
+header form img, #discript form img{cursor:pointer;margin-top:2px}
+header div, #discript div{width:489px;height:333px;padding-top:10px;background:url(images/9.PNG) top left no-repeat;color:black}
+header div h3, #discript div h3{background:none;color:black;margin-top:0}
+header ul{display:block;list-style:none;margin:40px 0 15px}
+header ul li{display:inline-block;background:url(images/li.png) center center no-repeat;width:125px;height:83px;text-transform:uppercase;margin:0 30px;padding-top:50px;font-size:18px}
+
+#redline{background:red;color:white;font-size:18px;text-align:center}
+#redline main{padding:20px 0}
 
 #imagine{background:url(images/fon2.jpg) center top no-repeat ;}
 
@@ -39,7 +57,7 @@ header{}
 
 #low_price{background: #f9f9e2 url(images/fon4.jpg) top center no-repeat;}
 #low_price main{text-align: center;}
-#low_price h2{color: #fff; background: #f00; text-transform: uppercase; font-family:'Trebuchet MS'; font-size: 60px; display: inline-block; vertical-align: center; padding: 1px 34px; margin-bottom: 80px;}
+#low_price h2{color: #fff; background: #f00; text-transform: uppercase; font-family:'Trebuchet MS'; font-size: 60px; display: inline-block;padding: 1px 34px; margin-bottom: 80px;}
 #low_price article{display:inline-block; width: 460px; padding: 200px 0 5px 0; margin: 10px 15px;}
 #low_price article p{font-family:'Trebuchet MS'; font-size:30px; color:#f22935; margin-bottom: 5px;}
 #low_price article img{cursor: pointer;}
@@ -50,12 +68,12 @@ header{}
 #low_price .tai{background: url('images/5.jpg') top center no-repeat;}
 #low_price .oth{background: url('images/6.jpg') top center no-repeat;}
 
-
-#discript{}
+#discript{height:421px;background:url(images/fon.JPG) center bottom no-repeat;text-align:center}
+#discript div h3{margin-top:100px;font-size:30px}
 
 #how_work{background: url(images/fon6.jpg) top center no-repeat; height: 578px;}
 #how_work main{text-align: center; background: url(images/how.png) bottom center no-repeat; height: 450px;}
-#how_work h2{color: #fff600; text-transform: uppercase; font-family:'Trebuchet MS'; font-size: 60px; display: inline-block; vertical-align: center; margin-top: -35px;}
+#how_work h2{color: #fff600; text-transform: uppercase; font-family:'Trebuchet MS'; font-size: 60px; display: inline-block;margin-top: -35px}
 
 #responses{height: 200px; background:#f2f2f2}
 #responses main{text-align: center; padding: 0;}
@@ -71,4 +89,3 @@ footer div{ bottom: 0; position: relative;}
 footer p{font-family:'Trebuchet MS'; font-size:20px; color:#fff; padding-top: 53px;}
 footer p.left{padding-top: 63px;}
 footer p.right{font-size: 30px;}
-

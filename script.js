@@ -123,5 +123,31 @@
    });
    return false;
   }
+	
+	$('#splash').onclick = function(){
+	 $('#splash').style.display = 'none';
+	}
+	$('#splash form').onclick = function(e){
+	 e.preventDefault();
+   e.stopPropagation();
+   e.cancelBubble = true;
+	 return false;
+	}
+	$('#splash form img').onclick = function(event){
+   var inputs = document.querySelectorAll('#splash form input');
+   var data = {};
+   for(var i = 0; i < inputs.length; ++i){
+    if(inputs[i].value.length > 0 && inputs[i].checkValidity()) data[inputs[i].name] = inputs[i].value; else return alert("Как минимум одно из полей не заполнено!")
+   }
+   ajax(data, 'server.php', function(r){
+    alert(r);
+   });
+	 $('#splash').style.display = 'none';
+   return false;
+  }
+	
+	$('#button').onclick = function(){
+	 $('#splash').style.display = 'block';
+	}
  }
 })(window, document);

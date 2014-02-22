@@ -20,9 +20,9 @@ header h3{font-size:36px;margin-top:30px;font-weight:normal}
 header h3 span{padding:0 10px}
 header p{margin-top:20px;font-size:22px;font-weight:bold}
 header p span{background:#fff200;padding:8px 40px}
-header form, #discript form{width:296px;height:210px;background:url(images/forma.jpg) top left no-repeat;padding-top:125px}
-header form input, #discript form input{width:222px;margin-bottom:10px;height:22px;font-size:18px;background:transparent;padding:8px;border:none}
-header form img, #discript form img{cursor:pointer;margin-top:2px}
+header form, #discript form, #splash form{width:296px;height:210px;background:url(images/forma.jpg) top left no-repeat;padding-top:125px}
+header form input, #discript form input, #splash form input{width:222px;margin-bottom:10px;height:22px;font-size:18px;background:transparent;padding:8px;border:none}
+header form img, #discript form img, #splash form img{cursor:pointer;margin-top:2px}
 header div, #discript div{width:489px;height:333px;padding-top:10px;background:url(images/9.PNG) top left no-repeat;color:black}
 header div h3, #discript div h3{background:none;color:black;margin-top:0}
 header ul{display:block;list-style:none;margin:40px 0 15px}
@@ -89,3 +89,8 @@ footer div{ bottom: 0; position: relative;}
 footer p{font-family:'Trebuchet MS'; font-size:20px; color:#fff; padding-top: 53px;}
 footer p.left{padding-top: 63px;}
 footer p.right{font-size: 30px;}
+
+#splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none}
+#splash main{text-align:center;top:150px}
+#splash p{color:white;text-align:center}
+#splash form{margin:0 auto 0;position:static}

@@ -89,6 +89,7 @@ footer div{ bottom: 0; position: relative;}
 footer p{font-family:'Trebuchet MS'; font-size:20px; color:#fff; padding-top: 53px;}
 footer p.left{padding-top: 63px;}
 footer p.right{font-size: 30px;}
+footer a{text-decoration: none; color: #fff;}
 
 #splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none}
 #splash main{text-align:center;top:150px}

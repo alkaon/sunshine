@@ -146,8 +146,12 @@
    return false;
   }
 	
-	$('#button').onclick = function(){
+	var buttons = document.querySelectorAll('.button');
+	function buttonClick(){
 	 $('#splash').style.display = 'block';
+	}
+	for(var i=0;i<buttons.length;++i){
+	 buttons[i].onclick = buttonClick;
 	}
  }
 })(window, document);
